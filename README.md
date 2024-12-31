@@ -15,7 +15,8 @@ This backend application provides APIs for managing a menu and placing orders. I
   - Fetch all orders for a logged-in user.
 
 - **User Authentication:**
-  - User authentication is assumed to be handled using JWT tokens (middleware required).
+  - Register and login functionality for users.
+  - User authentication is handled using JWT tokens (middleware required).
 
 ---
 
@@ -74,6 +75,10 @@ Ensure you have the following installed:
 ### Order Management:
 - **POST** `/order` - Place an order.
 - **GET** `/orders` - Fetch all orders for a logged-in user.
+
+### Authentication:
+- **POST** `/register` - Register a new user.
+- **POST** `/login` - Login an existing user.
 
 ---
 
